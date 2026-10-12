@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Archivos que genera Next.js al compilar
+.next/
+out/
+*.tsbuildinfo
+
+# Resultados de los tests
+playwright-report/
+test-results/
+
+# Agente (puede guardar credenciales)
+.opencode/
+
+# Variables de entorno
+.env*
