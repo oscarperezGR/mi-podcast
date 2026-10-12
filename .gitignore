@@ -15,3 +15,11 @@ test-results/
 
 # Variables de entorno
 .env*
+
+# Universales
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/
+.idea/

@@ -147,7 +147,7 @@ navigation (spec US3 acceptance scenarios 1–3; quickstart scenario 5)
 - [ ] T016 [P] [US3] Create `FaqItem` component in
   `src/components/FaqItem.tsx` using native `<details>/<summary>` so answers
   are readable without JavaScript (FR-011; research R5) (depends: T005)
-- [ ] T017 [P] [US3] Implement About page `src/app/about/page.tsx` with show
+- [X] T017 [P] [US3] Implement About page `src/app/about/page.tsx` with show
   premise, host/brand description, and contact/follow links (FR-004)
 - [ ] T018 [US3] Implement FAQ page `src/app/faq/page.tsx` rendering all items
   from `src/data/faq.ts` via `FaqItem` (≥ 5 items, FR-005; SC-005)

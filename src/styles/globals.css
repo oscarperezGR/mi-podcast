@@ -9,10 +9,12 @@
   --color-accent-strong: #f0d183;
   --color-on-accent: #0e0f13;
 
-  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
+  --font-display:
+    "Iowan Old Style", "Palatino Linotype", Palatino, Georgia,
     "Times New Roman", serif;
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif;
+  --font-body:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
 
   --text-xs: clamp(0.75rem, 0.7rem + 0.2vw, 0.8rem);
   --text-sm: clamp(0.875rem, 0.82rem + 0.25vw, 0.95rem);
@@ -273,6 +275,20 @@ main {
 
 .featured__player {
   margin-block: var(--space-2);
+}
+
+.page-section {
+  margin-block: var(--space-3);
+  max-width: 46rem;
+}
+
+.page-list {
+  margin: 0;
+  padding-left: var(--space-3);
+}
+
+.page-list li {
+  margin-bottom: var(--space-1);
 }
 
 .player,
