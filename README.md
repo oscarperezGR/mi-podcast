@@ -140,4 +140,4 @@ Los archivos finales se generan en la carpeta `out/`.
 
 Gracias a **Ana Karen Aragón** por la masterclass de Spec Driven Development. 
 
-#Te echaremos de menos... 🙌
+# Te echaremos de menos... 🙌
